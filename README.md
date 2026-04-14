@@ -2,7 +2,7 @@
 
 [![Category](https://img.shields.io/badge/category-security-red)](https://registry.gitagent.sh)
 [![License](https://img.shields.io/badge/license-MIT-green)](agent.yaml)
-[![Version](https://img.shields.io/badge/version-1.1.0-blue)](agent.yaml)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](agent.yaml)
 [![Spec](https://img.shields.io/badge/gitagent-v0.1.0-purple)](https://github.com/open-gitagent/gitagent)
 
 AI security engineer that audits code for OWASP Top 10 vulnerabilities, detects hardcoded secrets and credentials, and scans dependency files for known CVEs. Give it a GitHub URL or local path — it clones, discovers and triages files by risk, scans every file, delivers a full structured report, then permanently deletes the cloned repo from disk.
