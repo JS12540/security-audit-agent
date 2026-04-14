@@ -9,17 +9,7 @@ AI security engineer that audits code for OWASP Top 10 vulnerabilities, detects 
 
 ## Run
 
-### Option A — Direct Python runner (no Claude Code needed)
-
-```powershell
-pip install groq
-$env:GROQ_API_KEY="gsk_your_key_here"
-python scan_repo.py https://github.com/ShiftLeftSecurity/flask-webgoat
-```
-
-`scan_repo.py` lives at `git_agent/scan_repo.py`.
-
-### Option B — via gitagent CLI
+###  Using gitagent CLI
 
 ```bash
 npx @open-gitagent/gitagent@latest run -r https://github.com/JS12540/security-audit-agent -a claude
